@@ -1,4 +1,0 @@
-run:
-    docker run -d -p 3000:3000 -v logs:/app/data --rm --name logs_for_dogs_container loopick/logs-for-dogs:volumes
-stop:
-    docker stop logs_for_dogs_container
